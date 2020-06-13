@@ -27,15 +27,15 @@ THEN that will be shown on the page, and added to their transaction history when
 > let transactions = [];
 > let myChart;
 
-fetch("/api/transaction")
-  .then(response => response.json())
-  .then(data => {
-    // save db data on global variable
-    transactions = data;
-    populateTotal();
-    populateTable();
-    populateChart();
-  });
+> fetch("/api/transaction")
+ >  .then(response => response.json())
+ >  .then(data => {
+ >    // save db data on global variable
+ >    transactions = data;
+ >    populateTotal();
+ >    populateTable();
+>     populateChart();
+>   });
 
 
   
