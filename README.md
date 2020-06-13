@@ -12,6 +12,7 @@ This is an online/offline budget tracker. Users are able to add expenses and dep
 
 
 # Screenshot 
+<img width="925" alt="Screen Shot 2020-06-13 at 2 54 25 PM" src="https://user-images.githubusercontent.com/56641651/84576856-c7a5aa00-ad85-11ea-92b6-78b5ea1f6ec4.png">
 
 
 # Acceptance Criteria 
