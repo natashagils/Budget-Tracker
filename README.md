@@ -38,7 +38,6 @@ THEN that will be shown on the page, and added to their transaction history when
 >     populateChart();
 >   });
 
-
   
   
  # Installation
