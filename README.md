@@ -24,8 +24,8 @@ THEN that will be shown on the page, and added to their transaction history when
 # Sample Code
 
 
-let transactions = [];
-let myChart;
+> let transactions = [];
+> let myChart;
 
 fetch("/api/transaction")
   .then(response => response.json())
@@ -37,16 +37,7 @@ fetch("/api/transaction")
     populateChart();
   });
 
-function populateTotal() {
-  // reduce transaction amounts to a single total value
-  const total = transactions.reduce((total, t) => {
-    return total + parseInt(t.value);
-  }, 0);
 
-  const totalEl = document.querySelector("#total");
-  totalEl.textContent = total;
-}
- 
   
   
  # Installation
