@@ -17,6 +17,11 @@
   "bugs": {
     "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
+  
+  "engines": {
+    "node": "12.14.1"
+  },
+  
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
     "compression": "^1.7.4",
